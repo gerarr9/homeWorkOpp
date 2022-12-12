@@ -1,10 +1,8 @@
 package Animal;
 
-import java.sql.SQLOutput;
-
-public class amphibians extends  Animal{
+public class Amphibian extends  Animal{
     private String liv;
-    public amphibians(String name, int age,String liv ){
+    public Amphibian(String name, int age,String liv ){
         super(name, age);
         this.liv = liv;
     }
