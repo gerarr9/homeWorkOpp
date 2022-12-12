@@ -1,6 +1,7 @@
+import Animal.Amphibian;
 import Animal.Mammal.Herbivore;
 import Animal.Mammal.Predator;
-import Animal.amphibians;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -32,7 +33,7 @@ public class Main {
         Predator bear= new Predator("Егор",21,90,"Россия","Мясо");
         bear.print();
 
-        amphibians frog = new amphibians("Шайтан",21,"Казахстан");
+        Amphibian frog = new Amphibian("Шайтан",21,"Казахстан");
     }
 
 
